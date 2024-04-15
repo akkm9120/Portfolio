@@ -14,3 +14,10 @@ GRANT ALL PRIVILEGES on sakila.* TO 'ahkow'@'localhost' WITH GRANT OPTION;
  ```
 FLUSH PRIVILEGES;
 ```
+
+# data flow 
+ data-access-layer -> service-layer -> controller-layer 
+
+ ## queries are at data-access-layer 
+
+ this pass the method (funtion) to service-layer
